@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="programlamaya giri&#351; 4.2"/>
+        <attribute name="authors" value="nuhbe"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-21 11:39:53 &#214;&#214;"/>
+        <attribute name="created" value="bnVoYmU7QkVOSFVSOzIwMjQtMTAtMjE7MTA6MzA6MzUgw5bDljsyNTIx"/>
+        <attribute name="edited" value="bnVoYmU7QkVOSFVSOzIwMjQtMTAtMjE7MTE6Mzk6NTMgw5bDljsxOzI2Mzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="silgiadet" type="Integer" array="False" size=""/>
+            <declare name="defteradet" type="Integer" array="False" size=""/>
+            <declare name="kalemadet" type="Integer" array="False" size=""/>
+            <declare name="defterfiyat" type="Integer" array="False" size=""/>
+            <declare name="silgifiyat" type="Integer" array="False" size=""/>
+            <declare name="kalemfiyat" type="Integer" array="False" size=""/>
+            <output expression="&quot;defterfiyat giriniz&quot;" newline="True"/>
+            <input variable="defterfiyat"/>
+            <output expression="&quot;silgifiyat giriniz&quot;" newline="True"/>
+            <input variable="silgifiyat"/>
+            <output expression="&quot;kalemfiyat giriniz&quot;" newline="True"/>
+            <input variable="kalemfiyat"/>
+            <output expression="&quot;defteradet&quot;" newline="True"/>
+            <input variable="defteradet"/>
+            <output expression="&quot;silgiadet&quot;" newline="True"/>
+            <input variable="silgiadet"/>
+            <output expression="&quot;kalemadet&quot;" newline="True"/>
+            <input variable="kalemadet"/>
+            <output expression="(defterfiyat*defteradet)+(silgifiyat*silgiadet)+(kalemfiyat*kalemadet)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
